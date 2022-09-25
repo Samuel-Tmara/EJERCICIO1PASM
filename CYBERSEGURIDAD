@@ -1,0 +1,7 @@
+#CONTRASEÑA SEGURA O NO SEGURA
+#crear una funcion  la cual pueda determianr si una contraseña es segura o no es segura , debe incluir mas de 10 caracteres en los cuales debe haber mayusculas y numeros , no es necesario implementar caracteres especiales
+#NOTA: EL USUARIO DEBE INGRESAR LA CONTRASEÑA
+#EJEMPLO:Hola (imprime que no es seguro), HolaF12346("imprime que es segura")
+
+def seg_nseg(contraseña):
+#TODO:A partir de aqui modificar el codigo.
