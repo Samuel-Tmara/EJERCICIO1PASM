@@ -1,0 +1,22 @@
+realize una funcion que le permita hallar las componentes de un vector tanto en el eje X como en eje Y
+#NOTA:El usurio debe ingresar los valores
+#PUEDE HACER EL USO DE LIBRERIAS
+#parametros...
+#vector_x=int(input("ingrese el valor del vector en X: "))
+#vector_y=int(input("ingrese el valor del vector en Y: "))
+#vector_z=int(input("ingrese el valor del vector en Z: "))
+
+
+  #RESPECTO AL EJE X
+  def componente_vector(vector_x,vector_y,vector_z)
+  #TODO:realize cambios a partir de aca.
+  return componentx,componenty,componentz
+  
+  def component_vector(vector_x,vector_y,vector_z)
+  #TODO:realize cambios a partir de aca.
+  return componenTX,componenTZ,componenTY
+  
+ #SE DEJA UN VIDEO PARA RECORDAR COMO CALCULAR LAS COMPONENTES DE UN VECTOR
+ #https://www.youtube.com/watch?v=QfnXdFafE3s
+
+
