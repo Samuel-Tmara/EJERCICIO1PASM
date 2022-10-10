@@ -1,7 +1,12 @@
-#Escribir una funcion que aplique un descuento a un precio y otra funcion que aplique el iva a un precio , la funcion debe retornar el precio con iva  y el precio si no se  le aplica el iva.
-#De igual form  debe retornar el precio si se le aplica o si no se le aplica el descuento,tambien debera imprimer  el precio  por cada par de zapatos(#NOTA:suponiendo quelos zapatos tienen el mismo precio)
-#IMPORTANTE:Para el descuento : Si son mas de 10 zapatos se le aplicara el descuento(EJEMPLO=Si son mas de 10 zapatos se le aplicara el descuento , si son menos de 10 zapatos no tendra descuento)
-#IMPORTANTE:Para el IVA: si son mas de  20 zapatos"exagerando"  no se le aplicara el IVA(EJEMPLO=Si compro 20 zapatos , no tendra iva ,pero si compro menos de 20 zapatos se le aplicara el IVA)
+realizar una funcion que aplique un descuento a cierta compra y otra que le aplique el iva.Tambien debe modificar la funcion de tal forma que muestre en pantalla 
+si se aplico el descuento o el iva.
+
+
+#¡¡¡TENER EN CUENTA¡¡¡
+se aplicara el descuento del 25% por compras mayores o iguales a 10 productos
+se aplicara el iva del 19% por compras menores o iguales a 20 productos 
+
+
 
 def aplicacion_descuento(cantidad,precio, descuento): #esta funcion debe asignar los valores para la cantidad , precio , descuento
 #TODO= a partir de este espacio debera hacer las modificaciones 
@@ -13,7 +18,7 @@ def aplicacion_iva(cantidad,precio,IVA): #esta funcion debe asignar los valores 
 #TODO= a partir de este espacio debera hacer las modificaciones 
   return precio (#aca debera de retornar el precio con IVA)
 #TODO: a partir de este espacio debera hacer las modificaciones
-  return precio (#aca debera retornar el precio sin descuento)
+  return precio (#aca debera retornar el precio sin IVA)
   
 #se generara un error si no funciona de forma adecuada
 assert  aplicacion_descuento(10,5000,25)==3750.0
