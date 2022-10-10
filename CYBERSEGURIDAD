@@ -4,4 +4,7 @@
 #EJEMPLO:Hola (imprime que no es seguro), HolaF12346("imprime que es segura")
 
 def seg_nseg(contraseña):
+'''
+agregar documentación de la función. 
+'''
 #TODO:A partir de aqui modificar el codigo.
