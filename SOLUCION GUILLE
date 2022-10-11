@@ -1,0 +1,16 @@
+#EJERCICIO NUMERO PRIMO- MAURICIO MORA
+# Realizar un programa que le permita al usuario Ingresar un número y que este mismo le determine si es número PRIMO o no lo es. 
+
+# Nota: El ejercicio no se debe realizar con ninguna función que permita la realización de este ejercicio, 
+# se debe realizar con la lógica matemática de cada uno y el uso de estructuras  de control.
+####################################################################################################3
+primo=int(input("ingrese el numero el cual desea saber si es primo o nel")) #se le pide al usurio que ingrese el numero
+contadora=0 #creamos una variable contadora
+for i in range(1,primo+1,1): #puesto que un numero primo solo tiene 2 divisores entoncres crearemos un condicional
+    #para que los numeros que sean menores asi mismo entonces verifique que si es divisible y se acumule
+    if primo%i==0: #si el modulo del numero de la variable i es igual a 0 entonces
+        contadora=contadora+1
+if contadora==2: #si la variable es igual a 2(la cantidad de divisores que tiene entonces valida que el numero es primo)
+    print("el numero es primo ")
+else:
+    print("el numero no es primo ")
