@@ -1,0 +1,15 @@
+#Defina una funcion que devuelva el numero de dıas que tiene un año determinado. Teniendo en cuenta que un año es bisiesto si es divisible por 4 y no divisible por 100, 
+excepto si es tambien divisible por 400, en cuyo caso es bisiesto.
+def dias(año):
+'''
+funcion que realiza los de debidos proceso matematicos para saber cauntos dias tiene el año.
+año: el año que se desea determinar.
+#####################################################################################################################
+def dias(año): #se crea la funcion 
+    if año % 4 == 0 and año % 100 != 0 or año % 400 == 0:  #en este condicinal hacemos la evaluacuion para determinar si el año es biciesto o no
+        return "el año tiene 366 dias" #si lo es , retorna la cantidad de dias que tiene el año(366)
+    else: #si no
+        return " el año tiene 365 dias" #retorna la cantidas de dias normal (365)
+
+añoo=int(input("ingrese el año")) #se le pide al user que ingrese el año
+print(dias(añoo))
